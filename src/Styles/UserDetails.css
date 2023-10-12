@@ -1,0 +1,57 @@
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(225, 222, 222);
+}
+
+.user-details-container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #ddd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .user-details-container:hover {
+    transform: scale(1.05);
+    background-color: rgba(247, 247, 247, 0.9);
+  }
+  
+  .user-details-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .user-details-item {
+    margin: 10px 0;
+  }
+  
+  .user-details-label {
+    font-weight: bold;
+  }
+  
+  .user-details-value {
+    margin-left: 10px;
+  }
+  
+  .user-not-found {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ff0000;
+  }
+
+  .user-card-actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
