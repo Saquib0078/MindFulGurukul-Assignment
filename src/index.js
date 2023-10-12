@@ -18,5 +18,5 @@ app.use(function(req, res){
     return res.status(400).send({status: false, message: "Path Not Found"})
 })
 app.listen(process.env.PORT, () => {
-  console.log(`Server is running on ${process.env.PORT}`);
+  console.log(`Server is running on ${process.env.PORT||3000}`);
 });
