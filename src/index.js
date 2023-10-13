@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
-
+app.use(express.static('dist'))
 
 mongoose.connect(process.env.DB_URL, {
     useNewUrlParser: true})
